@@ -40,12 +40,17 @@
     font-size: 25px;
     display: flex;
 }
+.about h1{
+    font-size: 55px;
+    color: chocolate;
+
+}
 
 /* about */
 
 .gallery{
     width: 100%;
-    border: 5px solid black;
+    background-color: rgb(245, 245,245);
 }
 
 .firstrow{
@@ -58,6 +63,10 @@
     border-radius: 15px;
     justify-content: space-around;
 }
+.gallery h1{
+    color: chocolate;
+    font-size: 55px;
+}
 /* gallery*/
 
 .didyouknow{
@@ -67,4 +76,13 @@
 .didyouknow ul{
     list-style: none;
 }
+.didyouknow h1{
+    color: chocolate;
+    font-size: 50px;
+}
 /* did you know */
+.footer{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
